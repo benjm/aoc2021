@@ -2,7 +2,7 @@ import sys
 filename = sys.argv[1]
 lines = []
 with open(filename) as f:
-    lines = f.readlines()
+    lines = f.read().splitlines()
 
 print("starting part1")
 
